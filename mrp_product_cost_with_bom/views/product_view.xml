@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="product_template_form_view_inherit_ip" model="ir.ui.view">
+        <field name="name">product.template.form.ip</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='pricing']" position="after">
+                <field name="cost_included_bom" attrs="{'invisible': [('bom_count', '&lt;', 1)]}" widget='monetary' options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+            </xpath>
+        </field>
+    </record>
+    <record id="product_normal_form_view_inherit_ip" model="ir.ui.view">
+        <field name="name">product.product.form.ip</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="product.product_normal_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='standard_price']" position="before">
+                <field name="cost_included_bom" attrs="{'invisible': [('bom_count', '&lt;', 1)]}" widget='monetary' options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
