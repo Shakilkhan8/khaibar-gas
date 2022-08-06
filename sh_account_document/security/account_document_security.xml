@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Group for Account Documents -->
+    <record id="group_sh_account_document" model="res.groups">
+        <field name="name">Access Account Document</field>
+    </record>
+</odoo>

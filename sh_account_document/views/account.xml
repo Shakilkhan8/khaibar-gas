@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="account_move_form_view_inherit" model="ir.ui.view">
+        <field name="name">account.move.form.view.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="arch" type="xml">
+            <div name="button_box" position="inside">
+                <button name="open_document" context="{'default_account_move_id': active_id}" class="oe_stat_button" icon="fa-files-o" type="object" groups="sh_account_document.group_sh_account_document">
+                    <field name="document_count" widget="statinfo" string="Documents" />
+                </button>
+            </div>
+        </field>
+    </record>
+
+	<record id="account_payment_form_document_inherit" model="ir.ui.view">
+        <field name="name">account.payment.form.view.inherit</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_payment_form" />
+        <field name="arch" type="xml">
+	            <div name="button_box" position="inside">
+	                <button name="open_document" context="{'default_account_invoice_id': active_id}" class="oe_stat_button" icon="fa-files-o" type="object" groups="sh_account_document.group_sh_account_document">
+	                    <field name="document_count" widget="statinfo" string="Documents" />
+	                </button>
+	            </div>
+        </field>
+    </record>
+
+	 <record id="account_payment_kanban_view_inherit" model="ir.ui.view">
+        <field name="name">account.payment.kanban.view.inherit</field>
+        <field name="model">account.payment</field>
+        <field name="inherit_id" ref="account.view_account_move_kanban" />
+        <field name="arch" type="xml">
+            <field name="partner_id" position="after">
+                <field name="document_count" />
+            </field>
+            <xpath expr="//div[hasclass('row')]" position="after">
+                <div class="o_row">
+                    <span class="oe_kanban_partner_links">
+                        <span t-if="record.document_count.value&gt;0" class="badge badge-pill" groups="sh_account_document.group_sh_account_document">
+                            <i class="fa fa-fw fa-files-o" role="img" aria-label="Files" title="Files" /><t t-esc="record.document_count.value" />
+                        </span>
+                    </span>
+                </div>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="account_move_kanban_view_inherit" model="ir.ui.view">
+        <field name="name">account.move.order.kanban.view.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_account_move_kanban" />
+        <field name="arch" type="xml">
+            <field name="partner_id" position="after">
+                <field name="document_count" />
+            </field>
+            <xpath expr="//div[hasclass('row')]" position="after">
+                <div class="o_row">
+                    <span class="oe_kanban_partner_links">
+                        <span t-if="record.document_count.value&gt;0" class="badge badge-pill" groups="sh_account_document.group_sh_account_document">
+                            <i class="fa fa-fw fa-files-o" role="img" aria-label="Files" title="Files" /><t t-esc="record.document_count.value" />
+                        </span>
+                    </span>
+                </div>
+            </xpath>
+        </field>
+    </record>
+    
+</odoo>
