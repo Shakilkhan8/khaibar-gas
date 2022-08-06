@@ -1,0 +1,413 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_portal_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-27 09:48+0000\n"
+"PO-Revision-Date: 2020-10-27 09:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+msgid "<i class=\"fa fa-pencil\"/> Edit"
+msgstr "<i class=\"fa fa-pencil\"/> Editar"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Amount Due"
+msgstr "Monto adeudado"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Bills"
+msgstr "Facturas"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_bill_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_bill_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Bills Analysis (Bills Chart)?"
+msgstr "Análisis de facturas (gráfico de facturas)?"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Bills Chart"
+msgstr "Gráfico de facturas"
+
+#. module: sh_portal_dashboard
+#: model:ir.model,name:sh_portal_dashboard.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: sh_portal_dashboard
+#: model:ir.model,name:sh_portal_dashboard.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Month"
+msgstr "Mes actual"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Week"
+msgstr "Semana actual"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Year"
+msgstr "Año corriente"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__display_name
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Due Date"
+msgstr "Fecha de vencimiento"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Filter Chart:"
+msgstr "Gráfico de filtro:"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_record_limit
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_record_limit
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "How Many Recent Records Do You Want To Show?"
+msgstr "¿Cuántos registros recientes desea mostrar?"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid ""
+"How many recent/last records do you want to show in table eg. 5, 10 etc."
+msgstr ""
+"¿Cuántos registros recientes / últimos desea mostrar en la tabla, por ejemplo, 5, 10, etc.?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__id
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__id
+msgid "ID"
+msgstr "CARNÉ DE IDENTIDAD"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice #"
+msgstr "Factura #"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_invoice_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_invoice_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Invoice Analysis (Invoice Chart)?"
+msgstr "Análisis de facturas (gráfico de facturas)?"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice Chart"
+msgstr "Gráfico de facturas"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice Date"
+msgstr "Fecha de la factura"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_project_task_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_project_task_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Project Task Table?"
+msgstr "¿Es Mostrar tabla de tareas del proyecto?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_bill_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_bill_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Bill Table?"
+msgstr "¿Mostrar tabla de facturas recientes?"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Invoice Table?"
+msgstr "¿Mostrar tabla de facturas recientes?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_invoice_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_invoice_table
+msgid "Is Show Recent Invoices Table?"
+msgstr "¿Mostrar tabla de facturas recientes?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_purchase_order_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_purchase_order_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Purchase Order Table?"
+msgstr "¿Mostrar tabla de órdenes de compra recientes?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_quote_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_quote_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Quotation Table?"
+msgstr "¿Mostrar tabla de cotizaciones recientes?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_rfq_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_rfq_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent RFQ Table?"
+msgstr "¿Mostrar tabla RFQ reciente?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_sale_order_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_sale_order_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Sale Order Table?"
+msgstr "¿Mostrar tabla de pedidos de venta reciente?"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company____last_update
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Latest"
+msgstr "Última"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "My Leads"
+msgstr "Mis clientes potenciales"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "My Opportunities"
+msgstr "Mis Oportunidades"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Order Date"
+msgstr "Fecha de orden"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Order Number"
+msgstr "Número de orden"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Portal Dashboard"
+msgstr "Panel de control del portal"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Product Wise Purchase Data"
+msgstr "Datos de compra inteligente del producto"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Product Wise Sale Data"
+msgstr "Datos de venta inteligente del producto"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Project Task Data"
+msgstr "Datos de la tarea del proyecto"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Projects"
+msgstr "Proyectos"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_purchase_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_purchase_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Purchase Analysis (Purchase Chart)?"
+msgstr "Análisis de compras (gráfico de compras)"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Purchase Chart"
+msgstr "Cuadro de compra"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Purchase Orders"
+msgstr "Ordenes de compra"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Quotation Number"
+msgstr "Número de cotización"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Quotations"
+msgstr "Citas"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Request for Quotations"
+msgstr "Solicitud de cotizaciones"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Sale Chart"
+msgstr "Gráfico de venta"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Sale Orders"
+msgstr "Órdenes de venta"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_sale_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_sale_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Sales Analysis (Sales Chart)?"
+msgstr "Análisis de ventas (gráfico de ventas)"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Sales Orders"
+msgstr "Ordenes de venta"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show bill analysis chart in portal dashboard."
+msgstr "Mostrar el gráfico de análisis de facturas en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show invoice analysis chart in portal dashboard."
+msgstr "Mostrar el gráfico de análisis de facturas en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show project task table in portal dashboard."
+msgstr "Muestra la tabla de tareas del proyecto en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show purchase analysis chart in portal dashboard."
+msgstr "Muestra el gráfico de análisis de compras en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent Purchase Order table in portal dashboard."
+msgstr "Muestra la tabla de órdenes de compra recientes en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent RFQ table in portal dashboard."
+msgstr "Muestra la tabla de RFQ reciente en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent Sale Order table in portal dashboard."
+msgstr "Muestra la tabla de órdenes de venta recientes en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent bill table in portal dashboard."
+msgstr "Muestra la tabla de facturas recientes en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent invoices table in portal dashboard."
+msgstr "Muestra la tabla de facturas recientes en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent quotation table in portal dashboard."
+msgstr "Mostrar tabla de cotizaciones recientes en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show sale analysis chart in portal dashboard."
+msgstr "Mostrar gráfico de análisis de venta en el panel del portal."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Status"
+msgstr "Estado"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Tasks"
+msgstr "Tareas"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Today"
+msgstr "Hoy"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Top 10 products sold of the month"
+msgstr "Los 10 productos más vendidos del mes"
+
+#. module: sh_portal_dashboard
+#: code:addons/sh_portal_dashboard/models/res_config_settings.py:0
+#: code:addons/sh_portal_dashboard/models/res_config_settings.py:0
+#, python-format
+msgid "Value must be greater than 0."
+msgstr "El valor debe ser mayor que 0."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Yesterday"
+msgstr "Ayer"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_my_home_menu_my_account
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_my_home_my_account
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Your Details"
+msgstr "Tus detalles"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+msgid "Your Documents"
+msgstr "Sus documentos"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_docs_entry
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "view"
+msgstr "ver"

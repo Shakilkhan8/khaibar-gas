@@ -1,0 +1,413 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sh_portal_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-27 09:48+0000\n"
+"PO-Revision-Date: 2020-10-27 09:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+msgid "<i class=\"fa fa-pencil\"/> Edit"
+msgstr "<i class=\"fa fa-pencil\"/> تعديل"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Amount Due"
+msgstr "المبلغ المستحق"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Bills"
+msgstr "الفواتير"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_bill_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_bill_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Bills Analysis (Bills Chart)?"
+msgstr "تحليل الفواتير (مخطط الفواتير)؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Bills Chart"
+msgstr "مخطط الفواتير"
+
+#. module: sh_portal_dashboard
+#: model:ir.model,name:sh_portal_dashboard.model_res_company
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: sh_portal_dashboard
+#: model:ir.model,name:sh_portal_dashboard.model_res_config_settings
+msgid "Config Settings"
+msgstr "إعدادات التكوين"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Month"
+msgstr "الشهر الحالي"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Week"
+msgstr "الأسبوع الحالي"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Current Year"
+msgstr "السنة الحالية"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__display_name
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Edit"
+msgstr "تعديل"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Filter Chart:"
+msgstr "مخطط مرشح:"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_record_limit
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_record_limit
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "How Many Recent Records Do You Want To Show?"
+msgstr "كم عدد السجلات الحديثة التي تريد عرضها؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid ""
+"How many recent/last records do you want to show in table eg. 5, 10 etc."
+msgstr ""
+"كم عدد السجلات الأخيرة / الأخيرة التي تريد عرضها في الجدول ، على سبيل المثال. 5 ، 10 إلخ."
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__id
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__id
+msgid "ID"
+msgstr "هوية شخصية"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice #"
+msgstr "فاتورة #"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_invoice_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_invoice_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Invoice Analysis (Invoice Chart)?"
+msgstr "تحليل الفاتورة (مخطط الفاتورة)؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice Chart"
+msgstr "مخطط الفاتورة"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Invoice Date"
+msgstr "تاريخ الفاتورة"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Invoices"
+msgstr "الفواتير"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_project_task_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_project_task_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Project Task Table?"
+msgstr "هل إظهار جدول مهام المشروع؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_bill_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_bill_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Bill Table?"
+msgstr "هل إظهار جدول الفاتورة الأخير؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Invoice Table?"
+msgstr "هل إظهار جدول الفاتورة الأخيرة؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_invoice_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_invoice_table
+msgid "Is Show Recent Invoices Table?"
+msgstr "هل إظهار جدول الفواتير الحديثة؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_purchase_order_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_purchase_order_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Purchase Order Table?"
+msgstr "هل إظهار جدول طلبات الشراء الأخير؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_quote_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_quote_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Quotation Table?"
+msgstr "هل إظهار جدول الأسعار الأخير؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_rfq_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_rfq_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent RFQ Table?"
+msgstr "هل إظهار جدول RFQ الأخير؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_last_sale_order_table
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_last_sale_order_table
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Is Show Recent Sale Order Table?"
+msgstr "هل إظهار جدول أوامر البيع الأخير؟"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company____last_update
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "تاريخ آخر تعديل"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Latest"
+msgstr "آخر"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "My Leads"
+msgstr "يؤدي بلدي"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "My Opportunities"
+msgstr "فرصي"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Order Date"
+msgstr "تاريخ الطلب"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Order Number"
+msgstr "رقم الأمر"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Portal Dashboard"
+msgstr "لوحة معلومات البوابة"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Product Wise Purchase Data"
+msgstr "بيانات شراء المنتج الحكيم"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Product Wise Sale Data"
+msgstr "بيانات بيع المنتج الحكيم"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Project Task Data"
+msgstr "بيانات مهمة المشروع"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Projects"
+msgstr "المشاريع"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_purchase_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_purchase_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Purchase Analysis (Purchase Chart)?"
+msgstr "تحليل الشراء (مخطط الشراء)؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Purchase Chart"
+msgstr "مخطط الشراء"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Purchase Orders"
+msgstr "طلبات الشراء"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Quotation Number"
+msgstr "رقم الإقتباس"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Quotations"
+msgstr "الاقتباسات"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Reference"
+msgstr "مرجع"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Request for Quotations"
+msgstr "طلب عروض الأسعار"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Sale Chart"
+msgstr "مخطط البيع"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Sale Orders"
+msgstr "أوامر البيع"
+
+#. module: sh_portal_dashboard
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_company__sh_portal_dashboard_is_show_sale_chart
+#: model:ir.model.fields,field_description:sh_portal_dashboard.field_res_config_settings__sh_portal_dashboard_is_show_sale_chart
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Sales Analysis (Sales Chart)?"
+msgstr "تحليل المبيعات (مخطط المبيعات)؟"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Sales Orders"
+msgstr "طلبات المبيعات"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show bill analysis chart in portal dashboard."
+msgstr "إظهار مخطط تحليل الفاتورة في لوحة معلومات البوابة."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show invoice analysis chart in portal dashboard."
+msgstr "إظهار مخطط تحليل الفاتورة في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show project task table in portal dashboard."
+msgstr "إظهار جدول مهام المشروع في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show purchase analysis chart in portal dashboard."
+msgstr "إظهار مخطط تحليل الشراء في لوحة معلومات البوابة."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent Purchase Order table in portal dashboard."
+msgstr "إظهار جدول طلب الشراء الأخير في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent RFQ table in portal dashboard."
+msgstr "إظهار جدول RFQ الأخير في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent Sale Order table in portal dashboard."
+msgstr "إظهار جدول أمر البيع الأخير في لوحة معلومات البوابة."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent bill table in portal dashboard."
+msgstr "إظهار جدول الفاتورة الأخير في لوحة معلومات البوابة."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent invoices table in portal dashboard."
+msgstr "إظهار جدول الفواتير الحديثة في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show recent quotation table in portal dashboard."
+msgstr "إظهار جدول الاقتباس الأخير في لوحة معلومات البوابة الإلكترونية."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_website_res_config_settings
+msgid "Show sale analysis chart in portal dashboard."
+msgstr "إظهار مخطط تحليل البيع في لوحة معلومات البوابة."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Status"
+msgstr "الحالة"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Tasks"
+msgstr "مهام"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Today"
+msgstr "اليوم"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Top 10 products sold of the month"
+msgstr "أعلى 10 منتجات بيعت في الشهر"
+
+#. module: sh_portal_dashboard
+#: code:addons/sh_portal_dashboard/models/res_config_settings.py:0
+#: code:addons/sh_portal_dashboard/models/res_config_settings.py:0
+#, python-format
+msgid "Value must be greater than 0."
+msgstr "يجب أن تكون القيمة أكبر من 0."
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_my_home
+msgid "Yesterday"
+msgstr "في الامس"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_my_home_menu_my_account
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_my_home_my_account
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "Your Details"
+msgstr "تفاصيلك"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_dashboard_portal_layout
+msgid "Your Documents"
+msgstr "المستندات الخاصة بك"
+
+#. module: sh_portal_dashboard
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.portal_docs_entry
+#: model_terms:ir.ui.view,arch_db:sh_portal_dashboard.sh_portal_db_dashboard_tiles_before_document_view
+msgid "view"
+msgstr "رأي"
